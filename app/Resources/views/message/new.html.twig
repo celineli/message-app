@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+{% form_theme form 'bootstrap_3_layout.html.twig' %}
+
+{% block body %}
+
+    <div class="container">
+      <h1>New message</h1>
+      {{ form_start(form) }}
+          {{ form_widget(form) }}
+          <input type="submit" class="btn btn-create" value="SEND" />
+      {{ form_end(form) }}
+
+    </div>
+
+{% endblock %}

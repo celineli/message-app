@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Chat{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.png') }}" />
+        <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}" />
+        <link rel="stylesheet" href="{{ asset('css/main.css') }}" />
+        <link href="https://fonts.googleapis.com/css?family=Megrim|Quicksand" rel="stylesheet">
+    </head>
+    <body>
+      <div class="container-fluid header">
+        CHAT
+      </div>
+      <ul class="nav nav-tabs">
+        <li role="presentation"><a href="{{ path('message_index') }}">Messages</a></li>
+        <li role="presentation"><a href="{{ path('message_new') }}"><span class="glyphicon glyphicon-edit"></span></a></li>
+      </ul>
+        {% block body %}{% endblock %}
+        {% block javascripts %}{% endblock %}
+        <script src="{{ asset('js/jquery.js') }}"></script>
+        <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+    </body>
+</html>

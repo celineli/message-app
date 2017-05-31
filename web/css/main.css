@@ -1,0 +1,41 @@
+body {
+  background-color: #EDEDED;
+  font-family: "Quicksand", sans-serif; }
+
+.header {
+  background-color: #7FAEB0;
+  color: #FFF;
+  font-family: "Megrim", cursive;
+  font-size: 3em; }
+
+.nav {
+  margin-bottom: 20px;
+  background-color: #FFF; }
+
+.nav a {
+  color: #7FAEB0;
+  font-size: 1.2em; }
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px; }
+
+.message-box {
+  background-color: #FFF;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px #BFBFBF;
+  padding: 10px 10px 5px 10px; }
+
+.message {
+  margin-bottom: 10px; }
+
+.info {
+  font-size: 0.8em;
+  color: #7FAEB0; }
+
+.btn-create {
+  background-color: #7FAEB0;
+  color: #FFF; }
+
+/*# sourceMappingURL=main.css.map */
