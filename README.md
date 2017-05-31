@@ -4,6 +4,10 @@
 
 Projet d'application qui permet d'afficher et de créer des messages.
 
+## Installation des dépendances
+
+    composer install
+
 ## Structure de données
 
 message :
@@ -18,9 +22,6 @@ message :
     php app/console doctrine:database:create
     php app/console doctrine:schema:create
 
-## Installation des dépendances
-
-    composer install
 
 ## Utilisation
 
