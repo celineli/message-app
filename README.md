@@ -19,8 +19,8 @@ message :
 
 ## Création de la base de données
 
-    php app/console doctrine:database:create
-    php app/console doctrine:schema:create
+    php bin/console doctrine:database:create
+    php bin/console doctrine:schema:create
 
 
 ## Utilisation
